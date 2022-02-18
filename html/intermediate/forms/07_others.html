@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>추가된 인풋 타입</title>
+</head>
+<body>
+    <h1><a href="../../index.html">index로 돌아가기</a></h1>
+    <form action=""><!-- 시간관련 인풋타입-->
+        <label for="">날짜를 입력할 수 있음</label>
+        <input type="date" name="" id=""><br>
+        <label for="">현지 날짜/시간</label>
+        <input type="datetime-local" name="" id=""><br>
+        <label for="">월/연도</label>
+        <input type="month" name="" id=""><br>
+        <label for="">시간</label>
+        <input type="time" name="" id=""><br>
+        <label for="">주/연도</label>
+        <input type="week" name="" id="">
+    </form>
+    <form action="">
+        <label for="">색상 코드</label>
+        <input type="color" name="" id=""><br>
+        <label for="">이메일 형식</label>
+        <input type="email" name="" id="" autofocus><br><!--autofocus 미리 타이핑 바 생기게하기-->
+        <label for="">전화번호 형식</label>
+        <input type="tel" name="" id="" pattern=""><br>
+        <label for="">검색</label>
+        <input type="search" name="" id="" pattern="" autocomplete=""><br><!--autocomplete 자동완성기능 보안때문에 잘 사용하지 않음-->
+        <label for="">슬라이더 컨트롤(숫자~숫자)</label>
+        <input type="range" name="" id="" min="" max="" step="" value=""><br>
+        <label for="">URL 형식</label>
+        <input type="url" name="" id=""><br>
+        <label for="">숨김 처리</label>
+        <input type="hidden" id ="" name="page" value="1"><br><!-- name,value 필수인 인풋타입-->
+        <label for="">이미지 버튼</label>
+        <input type="image" src="../../basic/img/2.jpg" alt="" width="200px" height="200px"><br>
+        <button type="submit">제출하기</button>
+        <button type="reset">초기화하기</button>
+        <input type="button" value="일반버튼">
+        <button type="button">일반버튼2</button>
+    </form>
+</body>
+</html>
