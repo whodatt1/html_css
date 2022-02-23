@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            /* border: 1px solid red; */
+            width: 100px;
+            height: 100px;
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+        .center {
+            float: left;
+        }
+        .bottom {
+            float:right;
+        }
+        .both {
+            width: 100%;
+            clear: both;
+        }
+        .a1 {
+            background-color: skyblue;
+            width: 30%;
+            float: left;
+            height: 400px;
+        }
+        .container {
+            width: 100%;
+        }
+        .a2 {
+            background-color: slateblue;
+            width: 70%;
+            float: right;
+            height: 400px;
+        }
+        .div {
+            background-color: sienna;
+            width: 100%;
+            height: 100px;
+        }
+        .bo {
+            width: 100%;
+            height: 100px;
+            clear: both;
+            background-color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">Left</div>
+    <div class="right">Right</div>
+    <div class="center">Center</div>
+    <div class="bottom">Bottom</div>
+    <div class="both">가장 아래 위치</div>
+    <hr>
+    <div class="container">
+        <div class="div">header</div>
+        <div class="a1">aside</div>
+        <div class="a2">content</div>
+        <div class="bo">footer</div>
+    </div>
+</body>
+</html>
