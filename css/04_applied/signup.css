@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    background-color: rgb(27, 188, 155);
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgb(238, 239, 241);
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+input:focus {
+    outline: none;
+}
+.signupId {
+    width: 260px;
+    margin: 20px 0px 10px 0px;
+}
+.signupPassword {
+    width: 260px;
+    margin: 0px 20px 10px 20px;
+}
+.submit {
+    border-radius: 10px;
+    width: 260px;
+    padding: 10px;
+    background-color: rgb(27, 188, 155);
+    margin: 0px 20px 30px 20px;
+    color: white;
+}
+.find {
+    font-size: 11px;
+    color: gray;
+}

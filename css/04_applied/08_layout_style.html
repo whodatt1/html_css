@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Style</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container div {
+            padding: 20px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .w25 {
+            float: left;
+            width: 25%;
+            height: 100vh;
+            color: #fff;
+        }
+        .w75 {
+            float: left;
+            width: 75%;
+            background-color: burlywood;
+            height: 100vh;
+        }
+        ol {
+            border: 1px solid red;
+            font-size: 2em;
+        }
+        li {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="w25">컨텐츠의 구성이 화면 크기에 영향을 어떻게 받을것인가?</div>
+        <div class="w75">
+            <ol>
+                <li>화면의 일부 파트의 수직/수평 분할은 항상 컨테이너 개념을 사용</li>
+                <li>분할 된 영역의 컨테이너를 가르키는 클래스 이름이 체계적으로 작명</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
